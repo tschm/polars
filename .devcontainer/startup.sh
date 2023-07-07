@@ -12,5 +12,5 @@ rustup component add clippy
 cargo install --locked dprint
 cargo install cargo-license
 
-#cd py-polars
-make -f py-polars/Makefile requirements
+cd py-polars || exit
+make requirements
