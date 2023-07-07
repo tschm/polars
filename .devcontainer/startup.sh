@@ -1,4 +1,6 @@
 #!/bin/bash
+# all of this should be into a Makefile following the example of
+# https://github.com/pola-rs/r-polars
 RUST_TOOLCHAIN := nightly-2023-06-23
 
 rustup toolchain install $(RUST_TOOLCHAIN) --component miri
